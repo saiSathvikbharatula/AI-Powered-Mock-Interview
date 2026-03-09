@@ -15,7 +15,7 @@ from webrtc_realtime import FaceScoreBuffer, start_realtime_capture
 # ==========================================================
 # GROQ SETUP
 # ==========================================================
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 if not GROQ_API_KEY:
     raise RuntimeError("GROQ_API_KEY is not set")
 
