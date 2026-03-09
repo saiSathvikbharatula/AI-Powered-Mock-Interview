@@ -1,0 +1,14 @@
+(venv) PS C:\Users\BRV GOWTHAM\ai_mock\data> python training.py
+MAE: 2.72
+R2 : 0.807
+
+Feature Importances:
+content_score        0.604
+fluency_score        0.089
+relevance            0.086
+visual_nervousness   0.082
+technical_depth      0.058
+visual_confidence    0.042
+audio_confidence     0.038
+
+Model saved as readiness_rf_model.joblib

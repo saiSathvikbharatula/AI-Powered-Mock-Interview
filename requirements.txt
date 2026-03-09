@@ -1,0 +1,14 @@
+streamlit
+supabase
+streamlit-webrtc
+groq
+faster-whisper
+librosa
+soundfile
+mediapipe
+scikit-learn
+joblib
+numpy
+pydub
+python-dotenv
+
